@@ -1,6 +1,6 @@
 import { useEffect ,useState} from 'react';
 import './App.css';
-const PORT =  'https://exam-3-server-3p5sy.ondigitalocean.app';
+const PORT =  'https://exam3server.herokuapp.com';
 
 function App() {
   const [homeorder, setHomeorder] = useState([])
